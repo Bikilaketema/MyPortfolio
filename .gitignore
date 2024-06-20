@@ -45,7 +45,6 @@ out/
 
 # Gatsby files
 .cache/
-public/
 
 # Next.js files
 .next/
