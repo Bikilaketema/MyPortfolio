@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 
       body{
         transition: 0.5s;
-        background-color: #f5f5f5;
+        background-color: #E7D4B5;
         color: var(--black);
       }
 
@@ -92,7 +92,7 @@ export const GlobalStyle = createGlobalStyle`
   button, .button{
     border: none;
     cursor: pointer;
-    background-color: var(--green);
+    background-color: var(--blue);
     color: #FFFF;
     border-radius: 2rem;
     font-weight: 500;

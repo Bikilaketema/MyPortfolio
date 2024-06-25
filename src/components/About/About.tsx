@@ -16,12 +16,12 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function About() {
   return (
     <Container id="about">
-      <div className="about-text">
+      <div className="about-text lg:mr-20">
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About me</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
-          <p>
+          <p className="text-justify">
             My name is Bikila Ketema, and I'm a recent graduate from Addis Ababa University's School of Commerce, where 
             I earned a degree in Business Administration and Information Systems. Additionally, I 
             have completed a 12-month software engineering program at ALX Africa (Holberton School).
@@ -32,13 +32,13 @@ export function About() {
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-          <p>
+          <p className="text-justify">
           In my free time, I’ve been diving into graphic design. This hobby has grown into a real skill set
            as I’ve designed logos, banners, posters, stickers, graduation bulletins, and various other graphic works. 
           With these experiences under my belt, I can confidently say that I am also a professional graphic designer. </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
+          <p className="text-justify">
           If you need my services, I'm here to help. I can develop websites and design logos, 
           banners, flyers, and more. Additionally, I'm open to full-time positions in business or IT roles, 
           particularly in financial organizations. My solid foundation in Business Administration, backed by a bachelor’s degree, combined with
@@ -105,9 +105,9 @@ export function About() {
           </div>
         </div>
       </div>
-      <div className="about-image">
+      <div className="about-image rounded-lg flex items-center justify-center  lg:ml-20">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={BikilaKetema} alt="BikilaKetema" />
+          <img src={BikilaKetema} alt="BikilaKetema" className="rounded-[15%]" />
         </ScrollAnimation>
       </div>
     </Container>

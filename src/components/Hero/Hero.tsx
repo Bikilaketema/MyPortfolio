@@ -13,8 +13,8 @@ export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
-        <ScrollAnimation animateIn="fadeInUp">
-          <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
+        <ScrollAnimation animateIn="fadeInUp" >
+          <p className="text-nowrap flex flex-row">Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Bikila Ketema</h1>
@@ -64,7 +64,7 @@ export function Hero() {
       </div>
       <div className="hero-image rounded-md">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={coder} alt="coder gif" />
+          <img src={coder} alt="coder gif" className="rounded-[15%]" />
         </ScrollAnimation>
       </div>
     </Container>

@@ -101,7 +101,7 @@ export const Container = styled.header`
     text-indent: -9999px;
     width: 55px;
     height: 30px;
-    background: var(--green);
+    background: var(--blue);
     display: block;
     justify-content: center;
     align-items: center;
@@ -172,7 +172,7 @@ export const Container = styled.header`
       background-color: var(--green);
 
       a.button{
-        background-color: var(--pink);
+        background-color: var(--blue);
       }
 
       &.active{
